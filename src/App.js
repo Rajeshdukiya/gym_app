@@ -1,10 +1,10 @@
 import './App.css';
 import { Route, Routes} from 'react-router-dom';
 import { Box } from '@mui/material';
-import { Home } from '@mui/icons-material';
 import Navbar from './components/Navbar';
 import ExerciseDetail from './pages/ExerciseDetail';
 import Footer from './components/Footer';
+import Home from './pages/Home';
 
 function App() {
   return (
